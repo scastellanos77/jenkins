@@ -1,5 +1,5 @@
 pipeline {
-       agent { label 'poc-jenkins'}
+       agent { }
 
         stages {
  
