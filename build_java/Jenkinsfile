@@ -18,7 +18,7 @@ pipeline {
                     dir("build_java"){
 
                         sh "mvn -f pom.xml clean install -Dmaven.test.skip=true"
-                        sh "ls $(pwd)/target/ROOT.war"
+                        sh "pwd"
                         sh "tree"
                     }   
                 }
